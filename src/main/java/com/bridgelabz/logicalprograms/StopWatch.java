@@ -41,7 +41,7 @@ public class StopWatch {
         long sec=elapsedTime/1000;
         System.out.println("Total Time Elasped in Seconds :  "+sec+" sec");
         System.out.println();
-        long min=sec/60;
+        float min=(float)sec/60;
         System.out.println("Total Time Elasped in Minutes :  "+min+" min");
 
 
